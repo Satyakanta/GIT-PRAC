@@ -1,0 +1,12 @@
+
+
+public class sub {
+     public static void main(String a[]){
+        int num1 = 5;
+        int num2 = 6;
+        int sub = num1 - num2;
+        System.out.println("your Subtraction of 5-6:- "+sub);
+
+    }
+    
+}
