@@ -1,11 +1,18 @@
-
+import java.util.*;
 
 public class add {
     public static void main(String a[]){
-        int num1 = 5;
-        int num2 = 6;
-        int add = num1 + num2;
-        System.out.println("your addition of 5+6:- "+add);
+        int i = 1;
+        int j;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("ENTER NUMBER UPTO WHICH YOU WANT TO PRINT :-  ");
+        j =sc.nextInt();
+        while(i <=j){
+            System.out.println(i);
+            
+            i++;
+        }
+       
 
     }
 }
